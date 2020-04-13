@@ -1,0 +1,11 @@
+application: api-rest
+version: one
+
+
+runtime: php
+
+handlers:
+
+- url: /.*
+
+  script: index.php
